@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar">
+        <div class="logo">Team Bryant</div>
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="carousel-container">
+        <div class="carousel">
+          <img class="crs" src="SollowIceCream.png" alt="Project 1" />
+          <img class="crs" src="2.png" alt="Project 2" />
+          <img class="crs" src="2.png" alt="Project 3" />
+        </div>
+      </div>
+
+      <section id="about" class="desc-about">
+        <h1 class="head-title">About Me</h1>
+        <p class="paragraff">
+          Hi everyone!! holaaa I'm Samuel Bryant Eka Putra or as known Sam, a
+          software developer with a passion for creating something really
+          cool🥳, im Bangkit Academy graduate with a specialization in mobile
+          development. Possesses the ability to quickly learn new technologies
+          and adapt to dynamic work environments. In addition to Flutter, I have
+          experience in web development using HTML, CSS, and JavaScript. My
+          academic background in technologies information further enhances my
+          understanding of software and web development.
+          <br />
+          <br />
+          Then i like to make UI UX design, use Figma and sometimes i use Adobe
+          Xd to make wireframe and wireflow, every finished i always upload it
+          into instagram or adobe behance, you guys can find me at
+          <a class="none" href="#contact">Contact Me</a>
+          bellow, and i play some video games like Minecraft (both java pc and
+          bedrock), Valorant, PUBG Mobile, COD Mobile, Need For Speed: Most
+          Wanted, and E football (PC, Playstation, and mobile)
+        </p>
+      </section>
+
+      <section id="portfolio" class="portfolio-section">
+        <h2 class="portfolio-title">Web and Mobile Portfolio</h2>
+        <div class="portfolio-list">
+          <div class="portfolio-item">
+            <img class="img-2" src="png.png" />
+            <b><h3>SleepWell</h3></b>
+            <p>
+              Mobile app to predict sleep quality the frontend use kotlin,
+              jetpack compose, retrofit, and coroutine for making it efficient,
+              and the backend (cloud computing) uses Hapi, its javascript
+              framework, and the Machine learning is done using Jupyter
+              notebook.
+            </p>
+            <br />
+            <b>
+              <i>
+                <box-icon name="android" type="logo" color="#ffcc00"></box-icon>
+                <p>Mobile App</p>
+              </i>
+            </b>
+            <br />
+            <a
+              href="https://github.com/capstone-sleepwell/capstone-sleepwell/releases/download/demo/SleepWell.apk"
+              ><button class="btn-1">Try Our App</button></a
+            >
+          </div>
+          <div class="portfolio-item">
+            <img class="img-2" src="logokita.png" />
+            <b><h3>Manchunian</h3></b>
+            <p>
+              Story app for Manchester United fansclub, in this app you can
+              share story about this Team, use kotlin and API from backend, you
+              guys can login or make account for register this and you became
+              Manchunian or Manchester United Fanclub.
+            </p>
+            <br />
+            <b>
+              <i>
+                <box-icon name="android" type="logo" color="#ffcc00"></box-icon>
+                <p>Mobile App</p>
+              </i>
+            </b>
+            <br />
+            <a href="https://github.com/Penyuable/Manchunian"
+              ><button class="btn-1">View More</button></a
+            >
+          </div>
+          <div class="portfolio-item">
+            <img class="img-1" src="white-logo.png" />
+            <b><h3>SollowIceCream</h3></b>
+            <p>
+              I made a final assignment from a web design course, in which I
+              made a website for an UMKM operating in the food sector, and I
+              chose the Sollow Ice Cream shop as the place for me to make this
+              project.
+            </p>
+            <br />
+            <b>
+              <i>
+                <box-icon name="html5" type="logo" color="#ffcd00"></box-icon>
+                <p>Website</p>
+              </i>
+            </b>
+            <br />
+            <button class="btn-1">
+              <a
+                class="link"
+                href="https://sollowiceccreamandcoffee.netlify.app/"
+                >View Project</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="uiux" class="uid">
+        <h2 class="user">UI/UX Design</h2>
+        <div class="img-wrap">
+          <a href="#">
+            <img src="raw.png" alt="porto1" />
+            <div class="title">Football Live Score</div></a
+          >
+          <a
+            href="https://www.behance.net/gallery/212998589/Mobile-UI-UX-Aviation"
+          >
+            <img src="Icon-2.png" alt="porto2" />
+            <div class="title">Aviation App UI</div></a
+          >
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2>Contact Me Bellow</h2>
+        <div class="contact-container">
+          <a
+            href="https://instagram.com/bryhere_"
+            target="_blank"
+            class="contact-link"
+          >
+            <box-icon
+              name="instagram"
+              type="logo"
+              color="#fff"
+              size="lg"
+            ></box-icon>
+          </a>
+          <a
+            href="https://github.com/Penyuable"
+            target="_blank"
+            class="contact-link"
+          >
+            <box-icon
+              name="github"
+              type="logo"
+              color="#fff"
+              size="lg"
+            ></box-icon>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/samuel-bryant-eka-putra-102001311/"
+            target="_blank"
+            class="contact-link"
+          >
+            <box-icon
+              name="linkedin"
+              type="logo"
+              color="#fff"
+              size="lg"
+            ></box-icon>
+          </a>
+          <a
+            href="https://www.behance.net/58a70b2a"
+            target="_blank"
+            class="contact-link"
+          >
+            <box-icon
+              name="behance"
+              type="logo"
+              color="#fff"
+              size="lg"
+            ></box-icon>
+          </a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        &copy; 2024 Team Bryant. All Rights Reserved.
+      </footer>
+    </div>
+
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("mobile");
+        navLinks.classList.toggle("active");
+      }
+
+      let currentSlide = 0;
+      const slides = document.querySelectorAll(".carousel img");
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.style.transform = `translateX(${100 * (i - index)}%)`;
+        });
+      }
+
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+      }
+
+      // Initialize carousel
+      showSlide(currentSlide);
+
+      // Set interval for automatic sliding
+      setInterval(nextSlide, 5000);
+    </script>
+  </body>
+</html>
